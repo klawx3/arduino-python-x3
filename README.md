@@ -40,7 +40,7 @@ void loop() {
 ```
 
 luego de cargar esta aplicación solo basta con cambiar la variable `puerto` a el utilizado por Arduino, debería obtener la siguiente salida en el programa:
-
+```
 > Arduino: Intentando conexión a -> COM3
 > Arduino: Iniciando hilo de arduino
 > Arduino: Conexion: True
@@ -48,6 +48,6 @@ luego de cargar esta aplicación solo basta con cambiar la variable `puerto` a e
 > Dato de arduino: o
 > Dato de arduino: l
 > Dato de arduino: a
-
+```
 Esto indicaría que todo esta 👌
 

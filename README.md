@@ -6,7 +6,7 @@ Incluye su propio hilo de ejecución para dar flexibilidad en su utilización
 
 para utilizar en el código puede ejecutar el archivo `main.py` de ejemplo que esta en el repositorio
 
-## Uso del proyecto
+## 📨 Uso del proyecto
 
 Clonando el repositorio usando [git](https://git-scm.com/)
 
@@ -22,7 +22,7 @@ antes de usar el proyecto se debe descargar las dependencias usando `pip`
 ```sh
 pip install -r requeriments.txt
 ```
-### Probando el proyecto
+### 🧪 Probando el proyecto
 
 para probar si funciona *Out of the box* se recomienda primero cargar una aplicación `Echo` en arduino
 
@@ -38,7 +38,7 @@ void loop() {
   }
 }
 ```
-
+#### 🔥 Ejecutando
 luego de cargar esta aplicación solo basta con cambiar la variable `puerto` a el utilizado por Arduino, debería obtener la siguiente salida en el programa:
 ```
 > Arduino: Intentando conexión a -> COM3

@@ -1,16 +1,16 @@
 from klawx3.arduino import Arduino
-import time
 
 
 def arduino_listener(data): # callback de arduino
     print("Dato de arduino:", data)
 
 if __name__ == "__main__": # función principal
-    ard = Arduino("COM3") # parametros de conexión
+    puerto = "COM3"
+    ard = Arduino(puerto) # parametros de conexión
     ard.add_listener(arduino_listener) # agrega la funcion listener para escuchar datos de arduino
     connected = ard.connect() # inicia la conexión y el thread (modo daemon) interno
     if connected:
-        ard.send_data('hola') # envia un 1 a arduino
+        ard.send_data('hola') # envia un 'hola' a arduino
     else:
         print("Sin conexión a arduino")
     

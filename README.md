@@ -11,8 +11,8 @@ para utilizar en el código puede ejecutar el archivo `main.py` de ejemplo que e
 Clonando el repositorio usando [git](https://git-scm.com/)
 
 ```sh
-git clone repo
-cd repo
+git clone https://github.com/klawx3/arduino-python-x3
+cd arduino-python-x3
 ```
 
 antes de usar el proyecto se debe descargar las dependencias usando `pip`
@@ -24,7 +24,7 @@ pip install -r requeriments.txt
 ```
 ### 🧪 Probando el proyecto
 
-para probar si funciona *Out of the box* se recomienda primero cargar una aplicación `Echo` en arduino
+para probar si funciona *Out of the box* se recomienda primero cargar una aplicación `Echo` en Arduino
 
 ```cpp
 void setup() {
